@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: -webkit-radial-gradient(circle, skyblue, #000 100%);
+}
+header{
+	margin: 20px auto;;
+	text-align: center;
+	color:white;
+	font-family: Bell MT;
+}
+.imgIvan{
+	border-radius: 120px;
+	display: block;
+	margin: auto;
+}
+.main {
+	width: 95%;
+	padding: 20px;
+	float: left;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+.main div {
+	width: 400px;
+	margin: 30px 80px;
+	padding: 40px;
+	display: inline-block;
+}
+.main img{
+	width: 400px;
+	margin: 30px 50px;
+	padding: 20px;
+	display: inline-block;	
+	border-radius: 30px;
+}
+#p1{
+	width: 250px;
+	height: 250px;
+	margin: 5px 15px;
+	padding: 0px;
+	display: inline-block;	
+	border-radius: 150px;
+}
+#p2{
+	width: 400px;
+	height: 200px;
+	margin: 5px 15px;
+	padding: 0px;
+	display: inline-block;	
+}
+#p3{
+	width: 400px;
+	height: 400px;
+	margin: 5px 15px;
+	padding: 0px;
+	display: inline-block;	
+	border-radius: 250px;
+}
+.main label{
+	font-family: Bell MT;
+	color: white;
+	font-size: 40px;
+
+}
+.main li{
+	font-family: Bell MT;
+	color: white;
+	font-size: 40px;
+
+}
+aside {
+	width: 40%;
+	padding: 20px;
+}
+p{
+	font-family: Bell MT;
+	color: white;
+	font-size: 30px;
+}
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+	}
+}

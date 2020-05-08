@@ -1,0 +1,9 @@
+{
+  "name": "Biography",
+  "short_name": "Bio",
+  "theme_color": "#21659a",
+  "background_color": "#6e7f8e",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
